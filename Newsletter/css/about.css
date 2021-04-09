@@ -1,0 +1,64 @@
+
+body{
+  /* background: no-repeat url(../images/background2.png);
+  background-size: cover; */
+  font-family: 'open Sans';
+}
+h2{
+  font-size: 4rem;
+  font-weight: bolder;
+}
+p{
+  font-size: 1.1rem;
+ font-weight: bold;
+}
+.container-fluid{
+  background: no-repeat url(../images/background2.png);
+  background-size: cover;
+  padding: 13% 13%;
+}
+
+.navbar-light{
+  background-color: #f8efd4;
+  color: grey;
+  font-size: 200%;
+}
+
+
+/* Footer Section */
+.footer{
+background-color: #f8efd4;
+padding-top: 2%;
+}
+hr{
+  margin-top: 0.5rem;
+}
+
+.git{
+ color:black;
+}
+.insta{
+ color: red;
+}
+.facebook{
+  color-blue;
+}
+
+
+@media (max-width:800px) {
+
+h2{
+  margin-top: 10%;
+  font-size: 2.5rem;
+}
+body{
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 45% 13%;
+}
+.navbar{
+ padding: 8px 16px 8px 0;
+}
+}

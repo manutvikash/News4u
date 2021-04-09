@@ -1,0 +1,169 @@
+h1{
+  font-family: 'Alex Brush';
+  font-size: 4.5rem;
+  border-bottom: 1px solid white;
+  padding-bottom:0;
+  font-weight: bolder;
+
+}
+h2{
+  margin-top: 4%;
+font-size: 2.5rem;
+font-weight: bolder;
+}
+
+p{
+  font-size: 1.5rem;
+}
+body{
+
+  /* font-family: 'open Sans'; */
+  font-family: sans-serif;
+}
+
+/* Background */
+.container-fluid{
+
+ background: no-repeat url(../images/background2.png);
+ background-size: cover;
+ padding: 16% 15% 20% 15%;
+
+ height: 710px;
+}
+
+
+/* Navigation bar */
+
+.navbar-light{
+
+  background-color: #f8efd4;
+  color: grey;
+  font-size: 200%;
+}
+.navbar-nav .current{
+  background-color: red;
+}
+
+.dropdown-divider .col{
+  color: black;
+}
+
+
+/* Buttons */
+.btn{
+  margin: 3% 3% 5% 0;
+}
+.button-icon{
+  padding-left: 5%;
+}
+
+
+/* features */
+#features{
+padding: 7% 15%;
+position: relative;
+background-color: #ffffff;
+text-align: center;
+}
+
+.feature-box{
+padding: 5%;
+}
+
+.icon{
+color: #f08a5d;
+margin-bottom: 1rem;
+}
+
+.icon:hover{
+color:#ff4c68;
+}
+.feature-title{
+font-size: 1.5rem;
+font-weight: bolder;
+}
+
+
+/* carousel */
+
+.carousel-item img{
+  min-height: 450px !important;
+  max-height: 750px !important;
+}
+
+
+/* News */
+#news{
+  padding:100px;
+  padding-top: 20px;
+  text-align: center;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.card-header{
+  background-color: #f8efd4;
+
+}
+.card-body{
+  background-color: #fbf7f0
+}
+.news-column{
+  padding:3% 2%;
+
+}
+
+
+
+/* Footer Section */
+.footer{
+background-color: #f8efd4;
+padding-top: 2%;
+}
+hr{
+  margin-top: 0.5rem;
+}
+
+.git{
+ color:black;
+}
+.insta{
+ color: red;
+}
+.facebook{
+  color-blue;
+}
+
+
+/* Media query */
+@media (max-width:800px) {
+h1{
+  font-size: 3rem;
+}
+h2{
+  margin-top: 10%;
+  font-size: 1.5rem;
+}
+#news{
+  padding:15px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.section-heading{
+  font-size: 2rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+ padding: 45% 10%;
+ height: 510px;
+}
+.navbar{
+ padding: 8px 16px 8px 0;
+}
+
+
+}

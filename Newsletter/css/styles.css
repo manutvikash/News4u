@@ -1,0 +1,72 @@
+body{
+  /* background: no-repeat fixed url(../images/background3.png);
+  background-size: cover; */
+  font-family: 'open Sans';
+  color: white;
+}
+
+
+
+/* Navbar section */
+
+.container-fluid{
+  background: no-repeat fixed url(../images/background3.png);
+  background-size: cover;
+ padding: 12% 15%;
+ height: 610px;
+}
+.navbar-light{
+  background-color: #78c9cb;
+  color: grey;
+  font-size: 200%;
+}
+
+
+/* Create Account Section */
+.card{
+max-width: 800px;
+  padding: 0;
+  text-align: center;
+
+}
+
+ .create{
+  font-size: 3rem;
+  padding:0;
+  font-weight: bolder;
+}
+.form-group{
+  padding: 0.8rem;
+}
+.gen{
+  padding: 3%;
+
+}
+
+/* Footer */
+.git{
+ color:black;
+}
+.insta{
+ color: red;
+}
+.facebook{
+  color-blue;
+}
+
+
+ @media (max-width:800px) {
+.container-fluid{
+  /* padding: 45% 15% 55% 15%; */
+  padding-top: 45%;
+  padding-bottom: 35%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+}
+.navbar{
+  padding: 8px 16px 8px 0;
+}
+
+}

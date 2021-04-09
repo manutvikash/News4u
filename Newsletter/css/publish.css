@@ -1,0 +1,53 @@
+body{
+  background: no-repeat url(../images/background2.png);
+  background-size: cover;
+  font-family: 'open Sans';
+
+}
+h2{
+  text-align: center;
+  font-size: 3rem;
+
+}
+.navbar-light{
+  background-color: #f8efd4;
+  color: grey;
+  font-size: 200%;
+}
+.container-fluid{
+  padding: 10% 30%;
+
+}
+
+.bg{
+  background-color: #e7e7de;
+}
+
+
+
+#footer{
+  padding-top: 2%;
+  text-align: center;
+
+}
+
+.git{
+ color:black;
+}
+.insta{
+ color: red;
+}
+
+
+
+
+
+@media (max-width:800px) {
+.container-fluid{
+ padding: 45% 5%;
+}
+.navbar{
+ padding: 8px 16px 8px 0;
+}
+
+}
